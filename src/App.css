@@ -1,0 +1,113 @@
+
+* {
+  background-color: #282c34;
+  font-weight: 600;
+  font-family: 'Titillium Web', sans-serif;
+  letter-spacing: 1px;
+  color: white;
+  box-sizing: border-box;
+}
+
+.search-header {
+  text-align: center;
+}
+
+#title > span {
+  color: rgb(0, 255, 170);
+}
+
+.App-header {
+  color: white;
+}
+
+.input-search {
+  padding: 1rem;
+  width: 20rem;
+  outline: none;
+  border: 2px solid #fff;
+  border-radius: 30px;
+  margin-top: 50px;
+  font-size: 1rem;
+  font-weight: 700;
+}
+
+.error {
+  text-align: center;
+}
+
+.no-def-h2 > span {
+  color: indianred;
+  text-decoration: underline;
+}
+
+.no-def-p > span {
+  color: #c400ff;
+  text-decoration: underline;
+}
+
+.meaning {
+  position: relative;
+  width: 520px;
+  height: 400px;
+  margin: 2.8em auto;
+  padding: 1rem;
+  border: 2px solid #282828;
+  box-shadow: -1px 1px 20px 1px #fff;
+  z-index: 99;
+}
+
+.definition {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+button {
+  margin-top: 2rem;
+  margin-left: -8em;
+  padding-left: 0.5em;
+  padding-right: 0.5em;
+  padding-top: 0.1em;
+  padding-bottom: 0.2em;
+  font-weight: 900;
+  font-size: 1.5rem;
+  border: 3px solid #fff;
+  border-radius: 100%;
+  cursor: pointer;
+}
+
+.word {
+  margin-top: 1.7rem;
+}
+
+.word > span {
+  margin-left: 2rem;
+  font-size: 1.8em;
+}
+
+.def {
+  display: inline-block;
+  margin-left: 5rem;
+  font-size: large;
+}
+
+.para-1 {
+  font-size: 1rem;
+  margin-left: 5rem;
+}
+
+.para-2 {
+  margin-left: 5rem;
+}
+
+.para-3, .para-4 {
+  margin-left: 7rem;
+  margin-top: -1rem;
+  font-size: small;
+  color: rgb(153, 151, 151);
+}
+
+#error > span {
+  color: rgb(202, 32, 32);
+  background-color: #fff;
+}
